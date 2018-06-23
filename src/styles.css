@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  background-image: url('./assets/img4.png');
+}
+
+@media screen and (min-width: 600px) {
+  .arrowRight {
+    display: none;
+  }
+
+
+}
+
+@media screen and (max-width: 500px) {
+  /* .menuTitle {
+    display: inline;
+  }
+  .arrowRight {
+    display: inline-block;
+    padding-left: 20em;;
+  } */
+}

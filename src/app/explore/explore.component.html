@@ -1,0 +1,21 @@
+<app-menu></app-menu>
+
+<div class="container booksList">
+  <h2>Books in Archive</h2>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Category</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let book of archiveListArray">
+        <td>{{ book.title }}</td>
+        <td>{{ book.author }}</td>
+        <td>{{ book.category }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
