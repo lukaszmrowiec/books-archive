@@ -14,7 +14,7 @@ export class AppService {
     return this.archiveList;
   }
 
-  addTitle(title, author, category) {
+  addBook(title, author, category) {
     console.log(title, author, category);
     this.archiveList.push({
       title: title,
@@ -23,7 +23,7 @@ export class AppService {
     })
   }
 
-  removeTitle($key: string) {
+  removeBook($key: string) {
     this.archiveList.remove($key);
   }
 }

@@ -1,3 +1,7 @@
 .booksList {
   background-color: white
 }
+
+i {
+  cursor: pointer;
+}

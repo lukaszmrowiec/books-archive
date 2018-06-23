@@ -30,7 +30,7 @@ export class AddComponent implements OnInit {
   }
 
   addItem(title, author, category) {
-    this.archiveService.addTitle(title, author, category);
+    this.archiveService.addBook(title, author, category);
   }
 
 }

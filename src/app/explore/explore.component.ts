@@ -23,4 +23,8 @@ export class ExploreComponent implements OnInit {
     })
   }
 
+  deletingBook($key: string) {
+    this.archiveService.removeBook($key);
+  }
+
 }
