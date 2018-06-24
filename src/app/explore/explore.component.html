@@ -1,13 +1,12 @@
-<app-menu></app-menu>
-
-<div class="container booksList">
-  <h2>Books in Archive</h2>
-  <table class="table table-striped">
+<app-menu class="menu"></app-menu>
+<h2>My books</h2>
+<div class="booksList">
+  <table id="books">
     <thead>
       <tr>
         <th>Title</th>
         <th>Author</th>
-        <th>Category</th>
+        <th style="border-right: 1px solid rgb(27, 26, 26)">Category</th>
         <th></th>
       </tr>
     </thead>
@@ -16,7 +15,7 @@
         <td>{{ book.title }}</td>
         <td>{{ book.author }}</td>
         <td>{{ book.category }}</td>
-        <td><i class="fa fa-close" style="font-size:2em" (click)="deletingBook(book.$key)"></i></td>
+        <td><i class="fa fa-close" style="font-size:1em" (click)="deletingBook(book.$key)"></i></td>
       </tr>
     </tbody>
   </table>

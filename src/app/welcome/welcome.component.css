@@ -38,8 +38,10 @@ h2 {
 .button:hover {
   /* background-color: #e7e7e7; */
   border: 2px solid rgb(107, 105, 105);
-  color: black;
+  color: rgb(131, 127, 127);
   border-radius: 8px;
+  font-size: 2rem;
+  padding: 10px 20px;
 }
 
 .button span:after {

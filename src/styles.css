@@ -19,3 +19,8 @@ body {
     padding-left: 20em;;
   } */
 }
+
+.buttonAdd {
+  background-color: rgb(75, 73, 73);
+  color: white;
+}

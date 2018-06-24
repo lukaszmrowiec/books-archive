@@ -23,6 +23,10 @@ export class ExploreComponent implements OnInit {
     })
   }
 
+  // addingCategory(cat) {
+  //   this.archiveService.addCategory(cat);
+  // }
+
   deletingBook($key: string) {
     this.archiveService.removeBook($key);
   }

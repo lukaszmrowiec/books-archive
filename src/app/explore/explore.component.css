@@ -1,7 +1,44 @@
+h2 {
+  color: white;
+  padding-bottom: 1rem;
+  margin-top: 0;
+}
+
 .booksList {
-  background-color: white
+  /* background-color: rgb(61, 60, 60); */
+  border: 1px solid rgb(143, 141, 141);
+  color: white;
+  border: 0;
+  padding: 0;
 }
 
 i {
   cursor: pointer;
+}
+
+#books tr:nth-child(even){
+  background-image: url('../../assets/img6.png');
+}
+#books tr:nth-child(odd){
+  background-image: url('../../assets/img5.png');
+}
+
+table {
+  width: 100%;
+  font-size: 1.5rem;
+}
+
+td {
+  padding: 1rem;
+}
+
+th {
+  /* padding-left: 1rem; */
+  /* background-image: url('../../assets/img7.png'); */
+  background-color: rgb(27, 26, 26);
+  padding: 1%;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: grey;
+  /* border: 1px solid grey; */
 }

@@ -9,6 +9,7 @@ import { AppService } from './../app.service';
 })
 export class AddComponent implements OnInit {
   archiveListArray: any[];
+  archiveListArrayCategory: any[];
   // title: string;
   // author: string;
   // category: string;
@@ -30,7 +31,10 @@ export class AddComponent implements OnInit {
   }
 
   addItem(title, author, category) {
-    this.archiveService.addBook(title, author, category);
+    this.archiveService.addBook(title.value, author.value, category.value);
+    title.value = null;
+    author.value = null;
+    category.value = null;
   }
 
 }
