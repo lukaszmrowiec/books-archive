@@ -1,7 +1,13 @@
-div {
+
+.menuBelt {
+  background-color: rgb(5, 7, 6);
   color: white;
 }
 
-p {
+.menuHeaders {
+  color: white;
+}
+
+li {
   color: white;
 }
